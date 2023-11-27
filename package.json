@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "test:before": "tsc --extendedDiagnostics --project tsconfig.before.json",
+    "test:after": "tsc --extendedDiagnostics --project tsconfig.after.json"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.3",
+    "@types/react": "^18.2.39",
+    "typescript": "^5.3.2"
+  }
+}
